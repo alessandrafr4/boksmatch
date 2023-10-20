@@ -13,7 +13,7 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>BooksMatch</title>
+    <title>Livraria BooksMatch</title>
 </head>
 
 <body>
@@ -27,6 +27,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
                     <li class="nav-item">
                         <a class="nav-link" href="contatos.html">Contatos</a>
                     </li>
@@ -43,19 +44,74 @@
                         <a class="nav-link" href="login.html">Login</a>
                     </li>
                 </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Dúvidas" aria-label="Search">
+                    <button class="btn btn-dark" type="submit">Enviar</button>
+                </form>
             </div>
         </div>
     </nav>
     <div class="container">
         <div class="row">
             <div>
-                <div class="card-body">
-                   <p> BooksMatch é uma plataforma abrangente que abraça a tecnologia e a conveniência para oferecer aos amantes de livros uma experiência de aluguel de livros sem complicações. O aplicativo consiste em uma tela Inicial, onde temos Categorias, Contato, Sobre, Avaliações, Faq e Login . Essa plataforma inovadora foi desenvolvido com uma abordagem multiplataforma, utilizando Html para fornecer uma experiência perfeita na web.</p>
-                   <p>A plataforma é projetada para simplificar a vida tanto dos leitores quanto das administradoras. Os usuários podem desfrutar da comodidade de alugar seus livros diretamente de suas casas, economizando tempo e esforço. O BooksMatch se destaca ao permitir que os usuários encontrem seus livros desejados com facilidade, graças a um sistema de categorias bem definidas. Seja pelo nome do livro ou pela categoria, encontrar a próxima grande leitura nunca foi tão simples.</p>
-                   <p>Além disso, o BooksMatch oferece uma plataforma para interação entre os leitores, por meio de avaliações.</p>
-                   <p>A equipe por trás do BooksMatch está empenhada em fornecer um serviço de qualidade e uma experiência de usuário excepcional. Para isso, disponibilizamos nossos contatos via WhatsApp e email, para que os usuários possam nos contatar facilmente para recomendações, reclamações ou qualquer outra dúvida que possam ter.</p>
-                   <p>Além disso, o BooksMatch é um projeto educacional ambicioso que tem como objetivo integrar diversas disciplinas do curso técnico, abrangendo as matérias de Desenvolvimento de Dispositivos Móveis, Banco de Dados, Projeto integrador, Desenvolvimento Web, Redes de Computadores e Projeto de Software, estudadas nos últimos três anos com os professores, Eduardo da Silva, Ivo Marcos, Marco André, Adamô e Marco Antonio. Esta abordagem multidisciplinar não apenas </p>
-                   </p>                    
+              
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro na Livraria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #c4c4c4;
+            text-align: center;
+        }
+        .cadastro-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .cadastro-container h2 {
+            margin-bottom: 20px;
+        }
+        .cadastro-container input {
+            width: 100%;
+            padding: 5px;
+            margin: 5px 0;
+            border: 1px solid #12568A;
+            border-radius: 3px;
+        }
+        .cadastro-container button {
+            width: 100%;
+            padding: 10px;
+            background: #12568A;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <BR>
+    <div class="cadastro-container">
+        <h2>Login na Livraria</h2>
+        <form action="processar_cadastro.php" method="post">
+            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="password" name="senha" placeholder="Senha" required>
+            <button type="submit">entrar</button>
+        </form>
+        
+        
+    </div>
+</body>
+</html>
+
+                
                 </div>
             </div>
         </div>
